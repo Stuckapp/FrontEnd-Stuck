@@ -4,6 +4,7 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    background-color: #efebe5;
 }
 
 a {
@@ -14,3 +15,28 @@ a {
 * {
   box-sizing: border-box;
 }
+.navbar{
+  background-color: #101010 ;
+  height: 80px;;
+  
+}
+#LogoRed{
+  width: 130px;
+  margin-left: 50px;
+  
+
+}
+.login{
+ color: white;
+ margin-left: 20px;
+ margin-right: 60px;
+}
+.btnSign{
+  border: #d72d2e;
+  background-color: #d72d2e;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  width: 100px;
+  border-radius: 30px;
+}
+

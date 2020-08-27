@@ -1,5 +1,6 @@
 import styles from '../styles/Home.module.css'
 import Head from 'next/head'
+import NavBar from '../components/navBar'
 
 export default function Home() {
   return (
@@ -10,13 +11,8 @@ export default function Home() {
 
       </Head>
       <body>
-        <div className="container">
-          <div className="row">
-            <div className="col-12">
-              <button className="btn btn-success">probando bootstrap</button>
-            </div>
-          </div>
-        </div>
+        <NavBar></NavBar>
+
       </body>
 
 
