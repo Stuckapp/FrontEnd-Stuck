@@ -12,7 +12,7 @@ class navBar extends React.PureComponent {
         <a class="navbar-brand"><img src={LogoRed} alt="logo" id="LogoRed" /></a>
         <form class="form-inline">
           <button class="btn btnSign my-2 my-sm-0" type="submit">Sign In</button>
-          <a className="login">Log In</a>
+          <button className="login">Log In</button>
         </form>
       </nav>
     </div>

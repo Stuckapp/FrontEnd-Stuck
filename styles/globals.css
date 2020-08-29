@@ -1,15 +1,23 @@
+
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif,;
     background-color: #efebe5;
+}
+@font-face {
+  font-family: 'gothamblack';
+  src: url('../public/fonts/gotham-black-webfont.woff2') format('woff2'); 
+  font-style: normal;
+
 }
 
 a {
   color: inherit;
-  text-decoration: none;
+  text-decoration: none; 
+  
 }
 
 * {
@@ -17,7 +25,8 @@ a {
 }
 .navbar{
   background-color: #101010 ;
-  height: 80px;;
+  height: 80px;
+  flex-wrap: nowrap;
   
 }
 #LogoRed{
@@ -30,6 +39,8 @@ a {
  color: white;
  margin-left: 20px;
  margin-right: 60px;
+ background-color: #101010;
+ border: none;
 }
 .btnSign{
   border: #d72d2e;
@@ -39,4 +50,47 @@ a {
   width: 100px;
   border-radius: 30px;
 }
-
+.card{
+  border: none;
+}
+.cardPhone{
+  background-color: #efebe5;
+  flex-direction: row-reverse;
+}
+.cardPhone2{
+  background-color: #efebe5;
+}
+.card-title{
+  font-size: 60px;
+  font-family: 'gothamblack'; 
+}
+.stuck{
+  color: #d72d2e;
+  font-size: 60px;
+}
+.stuckP{
+  color: #d72d2e;
+}
+.card-img2{
+  border-radius: 60px;
+  width: 400px;
+  height: 300px;
+}
+.card-text{
+  font-size: 25px;
+  font-weight: bold;
+}
+.text-art{
+  margin-top: 70px;
+}
+.bgblack{
+  background-color: #101010;
+  margin-top: 100px;
+}
+ .cardCenter1{
+   background-color: #101010;
+   flex-direction: row-reverse;
+ }
+ .cardCenter2{
+  background-color: #101010;
+ }
