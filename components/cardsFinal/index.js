@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Link from 'next/link'
 class cardsCenter extends React.PureComponent {
 
   render() {
@@ -44,6 +44,10 @@ la ubicación de su taller o refaccionaria.</p>
       </div>
       <div className="col-12 d-flex justify-content-center mt-5">
         <img className="paypal" src={paypal} alt="paypal" />
+      </div>
+      <div className="col-12 d-flex justify-content-center mt-5">
+        <button class="btn btnSign my-2 my-sm-0  d-md-none" type="submit"><Link href="./sesion/usuarios">Sign In</Link></button>
+        <button className="login d-md-none text-dark">Log In</button>
       </div>
     </div>
 

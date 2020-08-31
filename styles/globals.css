@@ -1,6 +1,6 @@
 
 html,
-body {
+.body1 {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
@@ -39,7 +39,7 @@ a {
  color: white;
  margin-left: 20px;
  margin-right: 60px;
- background-color: #101010;
+ background-color: transparent;
  border: none;
 }
 .btnSign{
@@ -52,13 +52,14 @@ a {
 }
 .card{
   border: none;
+  background-color: transparent;
 }
 .cardPhone{
-  background-color: #efebe5;
+  background-color: transparent;
   flex-direction: row-reverse;
 }
 .cardPhone2{
-  background-color: #efebe5;
+  background-color: transparent;
 }
 .card-title{
   font-size: 60px;
@@ -88,9 +89,63 @@ a {
   margin-top: 100px;
 }
  .cardCenter1{
-   background-color: #101010;
+   background-color:transparent;
    flex-direction: row-reverse;
  }
  .cardCenter2{
+  background-color: transparent;
+ }
+
+ /*sesion1*/
+
+ .body2{
+   background-color: #101010;
+ }
+ .form-group{
+   display: flexbox;
+   justify-content: center;  
+   margin-top: 70px; 
+ }
+ .generalButton{
+   background-color: #d72d2e;
+   border: none;
+   width: 200px;
+   height: 40px;   
+   margin-left: 87px;
+   margin-top: 50px;
+   font-family: 'gothamblack';
+   color: white;
+ }
+ #exampleInputPassword1{
+   background-color: #101010;
+   border: none;   
+ }
+ #exampleInputEmail1{
   background-color: #101010;
+  border: none;
+ }
+ .password{
+   margin-left: 130px;
+   font-family: 'gothamblack';
+ }
+ .adress{
+   margin-left: 95px;
+   font-family: 'gothamblack';
+ } 
+ .small{
+   margin-left: 93px;
+   margin-top: 10px;   
+ }
+ .registro{
+   color: #E3B38F;
+   background-color: transparent;
+   border: none;
+  text-decoration: underline ;
+ }
+ #exampleInputEmail2{
+  background-color: #101010;
+  border: none;
+ }
+ .sellerForm{
+   font-family: 'gothamblack';
  }
