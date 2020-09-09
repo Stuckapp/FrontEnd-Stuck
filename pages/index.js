@@ -19,14 +19,13 @@ export default function Home() {
       </link>
 
     </Head>
-    <body className="body1">
 
-      <NavBar />
-      <CardsLanding />
-      <CardsCenter />
-      <CardsFinal />
-      <Footer />
-    </body>
+    <NavBar />
+    <CardsLanding />
+    <CardsCenter />
+    <CardsFinal />
+    <Footer />
+
   </>
 
 

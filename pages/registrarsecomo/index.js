@@ -1,28 +1,29 @@
-
-import Head from 'next/head'
 import LogoForm from '../../components/LogoForm'
-import SellerForm from '../../components/registroUsuario'
+import ButtonUserR from '../../components/botonuserResgistro'
+import Head from 'next/head'
+import ButtonSellerR from '../../components/botonVendedorRegistro'
 
-export default function vendedor() {
+
+
+
+export default function sesion1() {
+
   return (
-
     <div>
       <Head>
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-        <title>stück</title>
-
+        <title>Stück</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
           integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
-          crossorigin="anonymous">
-
-        </link>
-
+          crossorigin="anonymous" />
       </Head>
       <body className="body2">
         <LogoForm />
-        <SellerForm />
+        <ButtonUserR />
+        <ButtonSellerR />
 
       </body>
+
     </div>
+
   )
 }
